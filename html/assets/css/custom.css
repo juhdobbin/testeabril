@@ -1,0 +1,296 @@
+@import url(http://fonts.googleapis.com/css?family=Dosis:300,400,600,700|Asap:400,700);
+@import url(https://fonts.googleapis.com/css?family=Asap:400,700);
+body{
+  background-color: #e6e6e6;
+}
+/*HEADER*/
+header .banner {
+  text-align: center;
+}
+header .banner img {
+  display: inline-table;
+}
+header .header{
+  background-color: #ed1c24;
+}
+header .header .navbar{
+  min-height: 80px;
+  border: 0px solid transparent;
+  margin-bottom: 0px;
+}
+header .header .navbar .navbar-brand{
+  height: 80px;
+}
+header .header .navbar .logo{
+  max-width: 180px;
+  margin-top: 5px;
+}
+header .nav>li{
+  position: static;
+}
+header .navbar-form .form-control{
+  border-radius: 0;
+  box-shadow: 0 0 0;
+  width: 140px;
+  margin-top: 15px;
+  border: 0px;
+}
+header .navbar-nav>li>.dropdown-menu{
+  right: 0;
+  left: 0;
+  background-color: #242424;
+  border: solid #242424;
+  border-bottom: solid 3px #ed1c24;
+  font-family: 'Dosis', sans-serif;
+  padding: 0;
+}
+header .navbar-nav .menu-img img{
+  margin-top: 15px;
+}
+header .navbar-nav .menu-img p{
+  font-size: 15px;
+  color: #fff;
+  font-weight: 700;
+  margin-top: 10px;
+}
+
+header .navbar-nav>li>a{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  color:#fff;
+}
+header .nav .open>a, .nav .open>a:focus, .nav .open>a:hover {
+  background-color: #242424;
+  border-color: #242424;
+}
+header .nav>li>a:focus, .nav>li>a:hover{
+  color: #fff;
+}
+header .nav>li>a:focus, .nav>li>a:hover{
+  background-color: #242424;
+}
+header .submenu li{
+  list-style: none;
+  line-height: 33px;
+  font-family: 'Asap', sans-serif;
+}
+header .submenu li a{
+  color: #fff;
+}
+header .submenu.btn{
+  margin-top: 20px;
+  padding: 5px 15px;
+  background-color: #474747;
+  margin-left: 20px;
+  border-radius: 0px;
+}
+header .submenu.menu-lateral{
+  padding-left: 0px;
+  background-color: #474747;
+  margin-top: -3px;
+  margin-left: -2px;
+  text-align: right;
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+}
+header .submenu.menu-lateral li a{
+  padding-right: 10px;
+}
+header .submenu.menu-lateral li.active{
+  background-color: #242424;
+}
+.menu-secundario{
+  background-color: #242424;
+  text-transform: uppercase;
+}
+.menu-secundario ul{
+  min-height: 24px;
+}
+.menu-secundario li, .menu-secundario li a{
+  color: #fff;
+}
+.menu-secundario li {
+  font-size: 12px;
+  padding: 3px 13px;
+  font-family: 'Dosis', sans-serif;
+  font-weight: 600;
+}
+.menu-secundario li:not(.shape):hover{
+  opacity: 0.6;
+}
+.menu-secundario li a:hover{
+  text-decoration: none;
+}
+.menu-secundario li.shape{
+  float: left;
+  height: 24px;
+  width: 126px;
+  padding: 0 5px;
+  overflow: hidden;
+  position: relative;
+}
+.menu-secundario li.shape .ret{
+  position: absolute;
+  width: 109px;
+  height: 100%;
+  background-color: #d41f1f;
+}
+.menu-secundario li.shape .tria{
+  position: absolute;
+  right: 0;
+  display: inline-block;
+  width: 0;
+  height: 0;
+  border-left: 12px solid #d41f1f;
+  border-top: 12px solid transparent;
+  border-bottom: 12px solid transparent;
+}
+.menu-secundario li.shape .arrow{
+  position: absolute;
+  right: 12px;
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  border-right: 4px solid #242424;
+  border-top: 4px solid #242424;
+  transform: rotate(45deg);
+  top: -3px;
+}
+.menu-secundario li.shape .text {
+  margin-top: 3px;
+  margin-left: 18px;
+  position: relative;
+  display: inline-block;
+}
+
+.destaques .box{
+  padding: 0;
+}
+.caption{
+  position: absolute;
+  bottom: 0;
+  color: #fff;
+  /*text-shadow: #000 2px 2px 2px;*/
+  font-family: 'Dosis', sans-serif;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+.box-img.destaque .caption{
+  width: 70%;
+  right: 5%;
+  text-align: right;
+}
+.caption h2,.caption h4{
+  margin-top: 5px;
+}
+.categoria .glyphicon{
+  color: #ed1c24;
+}
+.categoria.promovido{
+  background-color: #ed1c24;
+  text-shadow: none;
+  padding: 1px 5px;
+}
+.noticias{
+  margin-top: 30px;
+}
+.noticias .box{
+  padding: 5px;
+  font-family: 'Dosis', sans-serif;
+}
+.noticias .box a{
+  color: #000;
+  text-decoration: none;
+}
+
+.noticias .box .box-img{
+  max-height: 175px;
+  overflow: hidden;
+  position: relative;
+}
+.noticias .box:first-child{
+  padding-left: 15px;
+}
+
+.noticias .box:last-child{
+  padding-right: 15px;
+}
+.noticias .box p.categoria{
+  position: absolute;
+  bottom: 0;
+  left: 3%;
+  color: #fff;
+  font-weight: 600;
+}
+.noticias .box h4{
+  font-weight: 600;
+}
+@media screen and (max-width: 480px) {
+  body{
+    overflow-x: hidden;
+  }
+  .banner {
+    margin: 10px 0;
+  }
+  header .header .navbar .navbar-brand{
+    height: 50px;
+    margin-top: 0%;
+  }
+  .btn-busca, .btn-menu{
+    float: left;
+    padding: 5%;
+    color: #fff;
+    font-size: 25px;
+  }
+  .btn-busca{
+    float: left;
+  }
+  .btn-menu{
+    float: right;
+  }
+  .btn-menu:hover, .btn-busca:hover{
+    color:#fff;
+  }
+  .menu{
+    display: none;
+  }
+  header .navbar-nav {
+    margin: 0px;
+  }
+  header .navbar-nav>li{
+    border-bottom: solid 1px #c21c1c;
+  }
+  header .navbar-nav>li>a{
+    padding: 10px 30px;
+    text-transform: uppercase;
+    font-weight: 700;
+  }
+  header .navbar-nav>li>a span{
+    float: right;
+  }
+  .navbar-form{
+    margin-left: 20px;
+    margin-right: 20px;
+    display: none;
+  }
+  header .navbar-form .form-control{
+    width: 100%;
+  }
+  .caption h2{
+    font-size: 18px;
+  }
+  .container{
+    padding: 0;
+  }
+  .noticias .box,.noticias .box:first-child{
+    padding: 20px;
+  }
+  .noticias .box .box-img{
+    max-height: 100%;
+  }
+  .noticias .box .box-img img{
+    width: 100%;
+  }
+
+}
